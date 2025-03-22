@@ -83,9 +83,6 @@ namespace ClienteCadastro.Infrastructure.Data
                     .IsRequired()
                     .HasColumnType("VARCHAR(20)");
                 
-                entity.Property(e => e.Complemento)
-                    .HasColumnType("NVARCHAR(50)");
-                
                 entity.Property(e => e.Bairro)
                     .IsRequired()
                     .HasColumnType("NVARCHAR(50)");

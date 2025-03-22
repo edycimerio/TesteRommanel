@@ -8,7 +8,6 @@ namespace ClienteCadastro.Domain.Entities
         public string CEP { get; private set; } = string.Empty;
         public string Logradouro { get; private set; } = string.Empty;
         public string Numero { get; private set; } = string.Empty;
-        public string? Complemento { get; private set; }
         public string Bairro { get; private set; } = string.Empty;
         public string Cidade { get; private set; } = string.Empty;
         public string Estado { get; private set; } = string.Empty;
@@ -20,25 +19,23 @@ namespace ClienteCadastro.Domain.Entities
         protected Endereco() : base() { }
 
         public Endereco(Guid clienteId, string cep, string logradouro, string numero, 
-                        string bairro, string cidade, string estado, string? complemento = null) : base()
+                        string bairro, string cidade, string estado) : base()
         {
             ClienteId = clienteId;
             CEP = cep;
             Logradouro = logradouro;
             Numero = numero;
-            Complemento = complemento;
             Bairro = bairro;
             Cidade = cidade;
             Estado = estado;
         }
 
         public void Atualizar(string cep, string logradouro, string numero, 
-                             string bairro, string cidade, string estado, string? complemento = null)
+                             string bairro, string cidade, string estado)
         {
             CEP = cep;
             Logradouro = logradouro;
             Numero = numero;
-            Complemento = complemento;
             Bairro = bairro;
             Cidade = cidade;
             Estado = estado;

@@ -42,24 +42,29 @@ namespace ClienteCadastro.Application.Commands.Endereco.Insert
                 request.Numero,
                 request.Bairro,
                 request.Cidade,
-                request.Estado,
-                request.Complemento
+                request.Estado
             );
 
             // Adicionar endereço ao cliente
             cliente.AdicionarEndereco(endereco);
 
             // Salvar alterações
-            await _clienteRepository.UpdateAsync(cliente);
+            await _enderecoRepository.AddAsync(endereco);
             await _unitOfWork.CommitAsync();
 
             // Registrar evento
-            await _eventStore.SaveEventAsync(
-                new EnderecoAdicionadoEvent(endereco.Id, endereco.ClienteId),
-                cliente.Id,
-                "Cliente",
-                cliente.Version + 1
+            var enderecoAdicionadoEvent = new EnderecoAdicionadoEvent(
+                endereco.Id,
+                endereco.ClienteId,
+                endereco.CEP,
+                endereco.Logradouro,
+                endereco.Numero,
+                endereco.Bairro,
+                endereco.Cidade,
+                endereco.Estado
             );
+
+            await _eventStore.SaveEventAsync(enderecoAdicionadoEvent, endereco.ClienteId, "Endereco", 1);
 
             return endereco.Id;
         }
@@ -69,11 +74,23 @@ namespace ClienteCadastro.Application.Commands.Endereco.Insert
     {
         public Guid EnderecoId { get; private set; }
         public Guid ClienteId { get; private set; }
+        public string CEP { get; private set; }
+        public string Logradouro { get; private set; }
+        public string Numero { get; private set; }
+        public string Bairro { get; private set; }
+        public string Cidade { get; private set; }
+        public string Estado { get; private set; }
 
-        public EnderecoAdicionadoEvent(Guid enderecoId, Guid clienteId)
+        public EnderecoAdicionadoEvent(Guid enderecoId, Guid clienteId, string cep, string logradouro, string numero, string bairro, string cidade, string estado)
         {
             EnderecoId = enderecoId;
             ClienteId = clienteId;
+            CEP = cep;
+            Logradouro = logradouro;
+            Numero = numero;
+            Bairro = bairro;
+            Cidade = cidade;
+            Estado = estado;
             AggregateId = clienteId;
         }
     }

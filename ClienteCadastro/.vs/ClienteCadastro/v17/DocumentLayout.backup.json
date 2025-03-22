@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}|ClienteCadastro.API\\ClienteCadastro.API.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}|ClienteCadastro.API\\ClienteCadastro.API.csproj|solutionrelative:clientecadastro.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.tests\\commands\\cliente\\delete\\deleteclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|solutionrelative:clientecadastro.tests\\commands\\cliente\\delete\\deleteclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.tests\\commands\\cliente\\insert\\createclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|solutionrelative:clientecadastro.tests\\commands\\cliente\\insert\\createclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.tests\\commands\\cliente\\update\\updateclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}|ClienteCadastro.Tests\\ClienteCadastro.Tests.csproj|solutionrelative:clientecadastro.tests\\commands\\cliente\\update\\updateclientecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}|ClienteCadastro.API\\ClienteCadastro.API.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}|ClienteCadastro.API\\ClienteCadastro.API.csproj|solutionrelative:clientecadastro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B6F997-0156-42C6-BE61-65731ADC5BBC}|ClienteCadastro.Application\\ClienteCadastro.Application.csproj|c:\\projetos\\testes\\testerommanel\\clientecadastro\\clientecadastro.application\\commands\\cliente\\delete\\deleteclientecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B6F997-0156-42C6-BE61-65731ADC5BBC}|ClienteCadastro.Application\\ClienteCadastro.Application.csproj|solutionrelative:clientecadastro.application\\commands\\cliente\\delete\\deleteclientecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateClienteCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Update\\UpdateClienteCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "ClienteCadastro.Tests\\Commands\\Cliente\\Update\\UpdateClienteCommandHandlerTests.cs",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Update\\UpdateClienteCommandHandlerTests.cs",
+              "RelativeToolTip": "ClienteCadastro.Tests\\Commands\\Cliente\\Update\\UpdateClienteCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:00:03.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateClienteCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Insert\\CreateClienteCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "ClienteCadastro.Tests\\Commands\\Cliente\\Insert\\CreateClienteCommandHandlerTests.cs",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Insert\\CreateClienteCommandHandlerTests.cs",
+              "RelativeToolTip": "ClienteCadastro.Tests\\Commands\\Cliente\\Insert\\CreateClienteCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T21:59:44.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteClienteCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "ClienteCadastro.Tests\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandlerTests.cs",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Tests\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandlerTests.cs",
+              "RelativeToolTip": "ClienteCadastro.Tests\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T21:59:31.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ClienteCadastro.API\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.API\\appsettings.json",
+              "RelativeToolTip": "ClienteCadastro.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T21:04:46.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteClienteCommandHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Application\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandler.cs",
+              "RelativeDocumentMoniker": "ClienteCadastro.Application\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandler.cs",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.Application\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandler.cs",
+              "RelativeToolTip": "ClienteCadastro.Application\\Commands\\Cliente\\Delete\\DeleteClienteCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:50:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.API\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "ClienteCadastro.API\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.API\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "ClienteCadastro.API\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:44:27.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -37,6 +37,24 @@ namespace ClienteCadastro.Application.Commands.Cliente.Insert
             if (await _clienteRepository.EmailExisteAsync(request.Email))
                 throw new InvalidOperationException($"Já existe um cliente cadastrado com o email {request.Email}");
 
+            // Validações específicas por tipo de pessoa
+            if (request.TipoPessoa == 'F')
+            {
+                // Validar idade mínima (18 anos) para pessoa física
+                var idadeMinima = 18;
+                var idade = DateTime.Today.Year - request.DataNascimento.Year;
+                if (request.DataNascimento.Date > DateTime.Today.AddYears(-idade)) idade--;
+                
+                if (idade < idadeMinima)
+                    throw new InvalidOperationException($"A idade mínima para cadastro é de {idadeMinima} anos.");
+            }
+            else // TipoPessoa == 'J'
+            {
+                // Validar IE obrigatório para pessoa jurídica (a menos que seja isento)
+                if (string.IsNullOrEmpty(request.IE) && !request.IsIsentoIE)
+                    throw new InvalidOperationException("Para pessoa jurídica, é necessário informar a Inscrição Estadual ou marcar como Isento.");
+            }
+
             // Criar o cliente
             Domain.Entities.Cliente cliente;
             
@@ -75,8 +93,7 @@ namespace ClienteCadastro.Application.Commands.Cliente.Insert
                     enderecoDto.Numero,
                     enderecoDto.Bairro,
                     enderecoDto.Cidade,
-                    enderecoDto.Estado,
-                    enderecoDto.Complemento
+                    enderecoDto.Estado
                 );
                 cliente.AdicionarEndereco(endereco);
             }

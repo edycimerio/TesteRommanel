@@ -63,7 +63,6 @@ namespace ClienteCadastro.API.Controllers
                     CEP = enderecoDto.CEP,
                     Logradouro = enderecoDto.Logradouro,
                     Numero = enderecoDto.Numero,
-                    Complemento = enderecoDto.Complemento,
                     Bairro = enderecoDto.Bairro,
                     Cidade = enderecoDto.Cidade,
                     Estado = enderecoDto.Estado
@@ -93,7 +92,6 @@ namespace ClienteCadastro.API.Controllers
                     CEP = enderecoDto.CEP,
                     Logradouro = enderecoDto.Logradouro,
                     Numero = enderecoDto.Numero,
-                    Complemento = enderecoDto.Complemento,
                     Bairro = enderecoDto.Bairro,
                     Cidade = enderecoDto.Cidade,
                     Estado = enderecoDto.Estado

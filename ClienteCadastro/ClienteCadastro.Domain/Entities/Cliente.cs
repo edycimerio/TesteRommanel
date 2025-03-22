@@ -135,6 +135,12 @@ namespace ClienteCadastro.Domain.Entities
             AtualizarDataModificacao();
         }
 
+        // Método alternativo para atualizar dados do cliente (para compatibilidade)
+        public void Atualizar(char tipoPessoa, string nome, string documento, string ie, bool isIsentoIE, DateTime? dataNascimento, string telefone, string email)
+        {
+            AtualizarDados(tipoPessoa, nome, documento, ie, isIsentoIE, dataNascimento, telefone, email);
+        }
+
         // Método para limpar todos os endereços
         public void LimparEnderecos()
         {
