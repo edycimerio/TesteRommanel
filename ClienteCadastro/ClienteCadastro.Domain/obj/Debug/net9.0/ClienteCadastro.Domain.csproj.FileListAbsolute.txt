@@ -10,3 +10,4 @@ C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debu
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.pdb
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ref\ClienteCadastro.Domain.dll
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.sourcelink.json
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.csproj.AssemblyReference.cache

@@ -10,3 +10,9 @@ C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.pdb
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ref\ClienteCadastro.Infrastructure.dll
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.sourcelink.json
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.csproj.AssemblyReference.cache
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Infrastructure.runtimeconfig.json
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Domain.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Domain.pdb
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteC.AB2197C5.Up2Date
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.genruntimeconfig.cache
