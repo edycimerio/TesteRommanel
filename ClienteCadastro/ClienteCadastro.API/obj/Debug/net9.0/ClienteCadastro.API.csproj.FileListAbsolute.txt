@@ -32,3 +32,4 @@ C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.API\obj\Debug\n
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.API\obj\Debug\net9.0\ClienteCadastro.API.pdb
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.API\obj\Debug\net9.0\ClienteCadastro.API.genruntimeconfig.cache
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.API\obj\Debug\net9.0\ref\ClienteCadastro.API.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.API\obj\Debug\net9.0\ClienteCadastro.API.sourcelink.json

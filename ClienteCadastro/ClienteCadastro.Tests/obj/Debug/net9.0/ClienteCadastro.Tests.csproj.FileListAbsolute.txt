@@ -9,3 +9,4 @@ C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Tests\obj\Debug
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Tests\obj\Debug\net9.0\refint\ClienteCadastro.Tests.dll
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Tests\obj\Debug\net9.0\ClienteCadastro.Tests.pdb
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Tests\obj\Debug\net9.0\ref\ClienteCadastro.Tests.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Tests\obj\Debug\net9.0\ClienteCadastro.Tests.sourcelink.json

@@ -9,3 +9,4 @@ C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\refint\ClienteCadastro.Infrastructure.dll
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.pdb
 C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ref\ClienteCadastro.Infrastructure.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.sourcelink.json
