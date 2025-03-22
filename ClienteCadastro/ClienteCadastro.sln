@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCadastro.API", "ClienteCadastro.API\ClienteCadastro.API.csproj", "{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCadastro.Domain", "ClienteCadastro.Domain\ClienteCadastro.Domain.csproj", "{D4F35136-960A-47C2-9748-1C03664C545F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCadastro.Application", "ClienteCadastro.Application\ClienteCadastro.Application.csproj", "{58B6F997-0156-42C6-BE61-65731ADC5BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCadastro.Infrastructure", "ClienteCadastro.Infrastructure\ClienteCadastro.Infrastructure.csproj", "{0DB38F04-8651-4BA2-84D1-B565C945549C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCadastro.Tests", "ClienteCadastro.Tests\ClienteCadastro.Tests.csproj", "{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFC4B71-61D5-48D4-B7AD-3B797DBF1647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F35136-960A-47C2-9748-1C03664C545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F35136-960A-47C2-9748-1C03664C545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F35136-960A-47C2-9748-1C03664C545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F35136-960A-47C2-9748-1C03664C545F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B6F997-0156-42C6-BE61-65731ADC5BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B6F997-0156-42C6-BE61-65731ADC5BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B6F997-0156-42C6-BE61-65731ADC5BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B6F997-0156-42C6-BE61-65731ADC5BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB38F04-8651-4BA2-84D1-B565C945549C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB38F04-8651-4BA2-84D1-B565C945549C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB38F04-8651-4BA2-84D1-B565C945549C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB38F04-8651-4BA2-84D1-B565C945549C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4E8CA4-B29A-480E-ADF2-B3BA31939C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

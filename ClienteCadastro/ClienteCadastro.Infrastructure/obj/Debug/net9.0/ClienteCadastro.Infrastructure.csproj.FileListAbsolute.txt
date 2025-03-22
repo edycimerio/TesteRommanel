@@ -1,0 +1,11 @@
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Infrastructure.deps.json
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Infrastructure.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\bin\Debug\net9.0\ClienteCadastro.Infrastructure.pdb
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.AssemblyInfo.cs
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\refint\ClienteCadastro.Infrastructure.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ClienteCadastro.Infrastructure.pdb
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Infrastructure\obj\Debug\net9.0\ref\ClienteCadastro.Infrastructure.dll

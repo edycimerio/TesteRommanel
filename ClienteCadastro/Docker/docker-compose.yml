@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # SQL Server
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: cliente-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Cliente@123456
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+      - ./init-database.sql:/docker-entrypoint-initdb.d/init-database.sql
+    networks:
+      - cliente-network
+    restart: unless-stopped
+    healthcheck:
+      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "Cliente@123456" -Q "SELECT 1" -b -o /dev/null
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  # SQL Server Initializer
+  sqlserver-init:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: cliente-sqlserver-init
+    volumes:
+      - ./init-database.sql:/scripts/init-database.sql
+    command: /bin/bash -c 'until /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P "Cliente@123456" -d master -i /scripts/init-database.sql; do echo "Waiting for SQL Server to be ready..."; sleep 5; done'
+    networks:
+      - cliente-network
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+
+  # Aqui adicionaremos posteriormente os serviços de backend e frontend
+
+networks:
+  cliente-network:
+    driver: bridge
+
+volumes:
+  sqlserver-data:

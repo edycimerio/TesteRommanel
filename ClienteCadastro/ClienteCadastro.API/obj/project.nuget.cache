@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h+HZu/hoQsU=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Testes\\TesteRommanel\\ClienteCadastro\\ClienteCadastro.API\\ClienteCadastro.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Edy\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

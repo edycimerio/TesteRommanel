@@ -1,0 +1,11 @@
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\bin\Debug\net9.0\ClienteCadastro.Domain.deps.json
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\bin\Debug\net9.0\ClienteCadastro.Domain.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\bin\Debug\net9.0\ClienteCadastro.Domain.pdb
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.AssemblyInfo.cs
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\refint\ClienteCadastro.Domain.dll
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ClienteCadastro.Domain.pdb
+C:\Projetos\Testes\TesteRommanel\ClienteCadastro\ClienteCadastro.Domain\obj\Debug\net9.0\ref\ClienteCadastro.Domain.dll
