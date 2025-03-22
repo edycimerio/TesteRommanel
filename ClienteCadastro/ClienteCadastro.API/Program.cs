@@ -1,3 +1,4 @@
+using ClienteCadastro.Application;
 using ClienteCadastro.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,9 @@ builder.Services.AddSwaggerGen();
 
 // Adiciona a infraestrutura (repositórios, contextos, etc.)
 builder.Services.AddInfrastructure(builder.Configuration);
+
+// Adiciona a camada de aplicação (CQRS, validação, etc.)
+builder.Services.AddApplication();
 
 var app = builder.Build();
 

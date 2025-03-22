@@ -7,6 +7,7 @@ namespace ClienteCadastro.Domain.Entities
         public Guid Id { get; protected set; }
         public DateTime DataCriacao { get; protected set; }
         public DateTime? DataAtualizacao { get; protected set; }
+        public int Version { get; protected set; } = 1;
 
         protected Entity()
         {
@@ -17,6 +18,7 @@ namespace ClienteCadastro.Domain.Entities
         public void AtualizarDataModificacao()
         {
             DataAtualizacao = DateTime.Now;
+            Version++;
         }
 
         public override bool Equals(object? obj)

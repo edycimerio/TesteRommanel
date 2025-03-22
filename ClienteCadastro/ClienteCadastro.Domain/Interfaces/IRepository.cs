@@ -15,6 +15,7 @@ namespace ClienteCadastro.Domain.Interfaces
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task RemoveAsync(Guid id);
+        Task RemoveAsync(T entity);
         Task<int> SaveChangesAsync();
     }
 }

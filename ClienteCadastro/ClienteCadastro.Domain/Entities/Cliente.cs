@@ -93,6 +93,15 @@ namespace ClienteCadastro.Domain.Entities
             }
         }
 
+        public void RemoverEndereco(Endereco endereco)
+        {
+            if (_enderecos.Contains(endereco))
+            {
+                _enderecos.Remove(endereco);
+                AtualizarDataModificacao();
+            }
+        }
+
         public void Ativar()
         {
             Ativo = true;
@@ -102,6 +111,34 @@ namespace ClienteCadastro.Domain.Entities
         public void Desativar()
         {
             Ativo = false;
+            AtualizarDataModificacao();
+        }
+
+        // Método para atualizar todos os dados do cliente
+        public void AtualizarDados(char tipoPessoa, string nome, string documento, string ie, bool isIsentoIE, DateTime? dataNascimento, string telefone, string email)
+        {
+            if (tipoPessoa != TipoPessoa)
+                throw new InvalidOperationException("Não é possível alterar o tipo de pessoa (física/jurídica).");
+
+            Nome = nome;
+            Documento = documento;
+            
+            if (tipoPessoa == 'J')
+            {
+                IE = ie;
+                IsIsentoIE = isIsentoIE;
+            }
+            
+            DataNascimento = dataNascimento;
+            Telefone = telefone;
+            Email = email;
+            AtualizarDataModificacao();
+        }
+
+        // Método para limpar todos os endereços
+        public void LimparEnderecos()
+        {
+            _enderecos.Clear();
             AtualizarDataModificacao();
         }
 

@@ -7,6 +7,7 @@ namespace ClienteCadastro.Domain.Events
         public Guid Id { get; private set; }
         public DateTime Timestamp { get; private set; }
         public string EventType => GetType().Name;
+        public Guid AggregateId { get; protected set; }
 
         protected Event()
         {
