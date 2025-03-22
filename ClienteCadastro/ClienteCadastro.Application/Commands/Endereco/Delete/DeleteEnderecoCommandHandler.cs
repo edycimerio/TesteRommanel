@@ -34,26 +34,24 @@ namespace ClienteCadastro.Application.Commands.Endereco.Delete
                 throw new InvalidOperationException($"Endereço com ID {request.Id} não encontrado");
 
             // Buscar o cliente associado ao endereço
-            var cliente = await _clienteRepository.GetByIdAsync(endereco.ClienteId);
+            var cliente = await _clienteRepository.GetClienteComEnderecosAsync(endereco.ClienteId);
             if (cliente == null)
                 throw new InvalidOperationException($"Cliente com ID {endereco.ClienteId} não encontrado");
 
             // Remover o endereço do cliente
             cliente.RemoverEndereco(endereco);
 
+            // Remover o endereço diretamente do repositório
+            await _enderecoRepository.RemoveAsync(endereco);
+            
             // Salvar alterações
-            await _clienteRepository.UpdateAsync(cliente);
-            await _unitOfWork.CommitAsync();
+            var result = await _unitOfWork.CommitAsync();
 
             // Registrar evento
-            await _eventStore.SaveEventAsync(
-                new EnderecoRemovidoEvent(endereco.Id, endereco.ClienteId),
-                cliente.Id,
-                "Cliente",
-                cliente.Version + 1
-            );
+            var enderecoRemovidoEvent = new EnderecoRemovidoEvent(endereco.Id, endereco.ClienteId);
+            await _eventStore.SaveEventAsync(enderecoRemovidoEvent, cliente.Id, "Cliente", 1);
 
-            return true;
+            return result;
         }
     }
 
